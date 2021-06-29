@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root to: 'pages#home'
-  get 'hello/world'
+  get 'fire', to:'pages#fire'
+  get 'diy', to:'pages#diy'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
