@@ -50,3 +50,7 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise', '~> 4.8'
+gem 'friendly_id', '~> 5.4', '>= 5.4.2'
+gem 'twitter', '~> 7.0'
+gem 'pinney_view_tool', git: "https://github.com/johnny-rob/pinney_view_tool"
