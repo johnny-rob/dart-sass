@@ -1,0 +1,5 @@
+@use "background";
+
+body {
+  @include background.red;
+} 
