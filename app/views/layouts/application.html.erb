@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DartSass</title>
+    <title>HouseHacking 2</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,11 @@
   </head>
 
   <body>
+
+    <%= render "shared/nav"%>
+
     <%= yield %>
+
+    <%= render "shared/application_footer"%>
   </body>
 </html>
